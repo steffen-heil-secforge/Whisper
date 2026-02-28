@@ -52,6 +52,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhisperPS", "WhisperPS\Whis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompressTables", "Tools\CompressTables\CompressTables.csproj", "{61CA4055-77F4-47DA-933E-175FEC28C6FA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhisperTray", "Examples\WhisperTray\WhisperTray.csproj", "{3B5E7A2D-9C4F-4A1E-B8D6-7F2E1A3C5D09}"
+	ProjectSection(ProjectDependencies) = postProject
+		{701DF8C8-E4A5-43EC-9C6B-747BBF4D8E71} = {701DF8C8-E4A5-43EC-9C6B-747BBF4D8E71}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -114,6 +119,10 @@ Global
 		{61CA4055-77F4-47DA-933E-175FEC28C6FA}.Debug|x64.Build.0 = Debug|Any CPU
 		{61CA4055-77F4-47DA-933E-175FEC28C6FA}.Release|x64.ActiveCfg = Release|Any CPU
 		{61CA4055-77F4-47DA-933E-175FEC28C6FA}.Release|x64.Build.0 = Release|Any CPU
+		{3B5E7A2D-9C4F-4A1E-B8D6-7F2E1A3C5D09}.Debug|x64.ActiveCfg = Debug|x64
+		{3B5E7A2D-9C4F-4A1E-B8D6-7F2E1A3C5D09}.Debug|x64.Build.0 = Debug|x64
+		{3B5E7A2D-9C4F-4A1E-B8D6-7F2E1A3C5D09}.Release|x64.ActiveCfg = Release|x64
+		{3B5E7A2D-9C4F-4A1E-B8D6-7F2E1A3C5D09}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,6 +137,7 @@ Global
 		{CD9E49F0-75A3-4F91-AC71-336109EE39C6} = {B988C132-115D-4157-99FE-0D891CE45A82}
 		{8AC301F0-FEC9-4F26-83DD-DB32969CD510} = {90D16EBB-08A4-4C9B-9991-B1B2E036838C}
 		{61CA4055-77F4-47DA-933E-175FEC28C6FA} = {90D16EBB-08A4-4C9B-9991-B1B2E036838C}
+		{3B5E7A2D-9C4F-4A1E-B8D6-7F2E1A3C5D09} = {B988C132-115D-4157-99FE-0D891CE45A82}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {07D5F1CF-1FAD-4F40-806A-B148CD609961}
