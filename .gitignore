@@ -24,3 +24,4 @@ Tools/CompressTables/bin/
 Tools/CompressTables/obj/
 Examples/WhisperTray/bin/
 Examples/WhisperTray/obj/
+dist/
